@@ -1,0 +1,8 @@
+[submodule "chat-app-client"]
+	path = chat-app-client
+	url = https://github.com/jasael/chat-app-client.git
+	branch = main
+[submodule "chat-app-server"]
+	path = chat-app-server
+	url = https://github.com/jasael/chat-app-server.git
+	branch = main
