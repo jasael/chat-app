@@ -1,0 +1,13 @@
+{
+  "name": "chat-app-server",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "server",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "postCreateCommand": "pnpm install",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}

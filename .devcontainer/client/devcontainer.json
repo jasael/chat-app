@@ -1,0 +1,13 @@
+{
+  "name": "chat-app-client",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "client",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "postCreateCommand": "pnpm install",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
